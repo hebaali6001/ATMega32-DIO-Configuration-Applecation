@@ -1,0 +1,6121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>873</width>
+    <height>613</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="AVR_ATMEGA32_CONFIG">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="acceptDrops">
+      <bool>false</bool>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(26, 79, 79);
+border-color: rgb(0, 0, 0);
+border-color: rgb(170, 161, 111);
+font: 75 9pt &quot;Rockwell&quot;;
+color: rgb(218, 197, 144);</string>
+     </property>
+     <property name="currentIndex">
+      <number>4</number>
+     </property>
+     <widget class="QWidget" name="PortA">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <attribute name="title">
+       <string>PORT-A</string>
+      </attribute>
+      <widget class="QGroupBox" name="BoxA0">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>10</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>A0</string>
+       </property>
+       <widget class="QRadioButton" name="outputA0">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputA0">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidA0">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>10</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upA0">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceA0">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigA0">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>10</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highA0">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowA0">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxA1">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>80</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>A1</string>
+       </property>
+       <widget class="QRadioButton" name="outputA1">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputA1">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxA6">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>430</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>A6</string>
+       </property>
+       <widget class="QRadioButton" name="outputA6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputA6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxA2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>150</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>A2</string>
+       </property>
+       <widget class="QRadioButton" name="outputA2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputA2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxA3">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>220</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>A3</string>
+       </property>
+       <widget class="QRadioButton" name="outputA3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputA3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxA5">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>360</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>A5</string>
+       </property>
+       <widget class="QRadioButton" name="outputA5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputA5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxA4">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>290</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>A4</string>
+       </property>
+       <widget class="QRadioButton" name="outputA4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputA4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxA7">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>500</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>A7</string>
+       </property>
+       <widget class="QRadioButton" name="outputA7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputA7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigA1">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>80</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highA1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowA1">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigA2">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>150</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highA2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowA2">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigA5">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>360</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highA5">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowA5">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigA4">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>290</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highA4">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowA4">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigA3">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>220</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highA3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowA3">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigA6">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>430</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highA6">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowA6">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigA7">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>500</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highA7">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowA7">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidA1">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>80</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upA1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceA1">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidA2">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>150</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upA2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceA2">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidA3">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>220</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upA3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceA3">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidA4">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>290</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upA4">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceA4">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidA5">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>360</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upA5">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceA5">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidA6">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>430</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upA6">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceA6">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidA7">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>500</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upA7">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceA7">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="PortB">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <attribute name="title">
+       <string>PORT-B</string>
+      </attribute>
+      <widget class="QGroupBox" name="BoxB6">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>430</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>B6</string>
+       </property>
+       <widget class="QRadioButton" name="outputB6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputB6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxB2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>150</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>B2</string>
+       </property>
+       <widget class="QRadioButton" name="outputB2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputB2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigB0">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>10</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highB0">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowB0">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxB5">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>360</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>B5</string>
+       </property>
+       <widget class="QRadioButton" name="outputB5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputB5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxB4">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>290</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>B4</string>
+       </property>
+       <widget class="QRadioButton" name="outputB4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputB4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidB2">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>150</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upB2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceB2">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigB3">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>220</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highB3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowB3">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidB6">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>430</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upB6">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceB6">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigB5">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>360</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highB5">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowB5">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxB7">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>500</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>B7</string>
+       </property>
+       <widget class="QRadioButton" name="outputB7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputB7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidB5">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>360</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upB5">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceB5">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxB3">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>220</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>B3</string>
+       </property>
+       <widget class="QRadioButton" name="outputB3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputB3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidB0">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>10</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upB0">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceB0">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigB2">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>150</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highB2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowB2">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxB0">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>10</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>B0</string>
+       </property>
+       <widget class="QRadioButton" name="outputB0">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputB0">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxB1">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>80</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>B1</string>
+       </property>
+       <widget class="QRadioButton" name="outputB1">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputB1">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidB1">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>80</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upB1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceB1">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidB4">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>290</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upB4">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceB4">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigB1">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>80</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highB1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowB1">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidB7">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>500</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upB7">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceB7">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigB6">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>430</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highB6">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowB6">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigB4">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>290</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highB4">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowB4">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigB7">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>500</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highB7">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowB7">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidB3">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>220</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upB3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceB3">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="PortC">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <attribute name="title">
+       <string>PORT-C</string>
+      </attribute>
+      <widget class="QGroupBox" name="BoxC6">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>430</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>C6</string>
+       </property>
+       <widget class="QRadioButton" name="outputC6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputC6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxC2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>150</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>C2</string>
+       </property>
+       <widget class="QRadioButton" name="outputC2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputC2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigC0">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>10</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highC0">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowC0">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxC5">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>360</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>C5</string>
+       </property>
+       <widget class="QRadioButton" name="outputC5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputC5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxC4">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>290</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>C4</string>
+       </property>
+       <widget class="QRadioButton" name="outputC4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputC4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidC2">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>150</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upC2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceC2">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigC3">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>220</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highC3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowC3">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidC6">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>430</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upC6">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceC6">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigC5">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>360</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highC5">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowC5">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxC7">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>500</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>C7</string>
+       </property>
+       <widget class="QRadioButton" name="outputC7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputC7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidC5">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>360</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upC5">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceC5">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxC3">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>220</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>C3</string>
+       </property>
+       <widget class="QRadioButton" name="outputC3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputC3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidC0">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>10</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upC0">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceC0">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigC2">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>150</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highC2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowC2">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxC0">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>10</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>C0</string>
+       </property>
+       <widget class="QRadioButton" name="outputC0">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputC0">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxC1">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>80</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>C1</string>
+       </property>
+       <widget class="QRadioButton" name="outputC1">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputC1">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidC1">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>80</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upC1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceC1">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidC4">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>290</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upC4">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceC4">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigC1">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>80</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highC1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowC1">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidC7">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>500</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upC7">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceC7">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigC6">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>430</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highC6">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowC6">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigC4">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>290</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highC4">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowC4">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigC7">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>500</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highC7">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowC7">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidC3">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>220</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upC3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceC3">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="PortD">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <attribute name="title">
+       <string>PORT-D</string>
+      </attribute>
+      <widget class="QGroupBox" name="BoxD6">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>430</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>D6</string>
+       </property>
+       <widget class="QRadioButton" name="outputD6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputD6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxD2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>150</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>D2</string>
+       </property>
+       <widget class="QRadioButton" name="outputD2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputD2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigD0">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>10</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highD0">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowD0">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxD5">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>360</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>D5</string>
+       </property>
+       <widget class="QRadioButton" name="outputD5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputD5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxD4">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>290</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>D4</string>
+       </property>
+       <widget class="QRadioButton" name="outputD4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputD4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidD2">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>150</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upD2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceD2">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigD3">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>220</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highD3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowD3">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidD6">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>430</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upD6">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceD6">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigD5">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>360</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highD5">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowD5">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxD7">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>500</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>D7</string>
+       </property>
+       <widget class="QRadioButton" name="outputD7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputD7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidD5">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>360</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upD5">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceD5">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxD3">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>220</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>D3</string>
+       </property>
+       <widget class="QRadioButton" name="outputD3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputD3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidD0">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>10</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upD0">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceD0">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigD2">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>150</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highD2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowD2">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxD0">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>10</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>D0</string>
+       </property>
+       <widget class="QRadioButton" name="outputD0">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputD0">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="BoxD1">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>80</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>D1</string>
+       </property>
+       <widget class="QRadioButton" name="outputD1">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="inputD1">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidD1">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>80</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upD1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceD1">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidD4">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>290</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upD4">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceD4">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigD1">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>80</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highD1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowD1">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidD7">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>500</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upD7">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceD7">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigD6">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>430</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highD6">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowD6">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigD4">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>290</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highD4">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowD4">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="outputConfigD7">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>500</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>output Config</string>
+       </property>
+       <widget class="QRadioButton" name="highD7">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="lowD7">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Low</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="inputConfidD3">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>220</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>input config</string>
+       </property>
+       <widget class="QRadioButton" name="pul_upD3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>82</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Pull up</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="high_impedenceD3">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>101</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>High impedance</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="configcheck">
+      <attribute name="title">
+       <string>config</string>
+      </attribute>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>100</y>
+         <width>391</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 81 14pt &quot;Rockwell Extra Bold&quot;;
+text-decoration: underline;
+font: 81 14pt &quot;Rockwell Extra Bold&quot;;</string>
+       </property>
+       <property name="title">
+        <string>PATH:</string>
+       </property>
+       <widget class="QLineEdit" name="path">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>20</y>
+          <width>391</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 81 6pt &quot;Rockwell Extra Bold&quot;;</string>
+        </property>
+        <property name="text">
+         <string>enter a path of the configuration :</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="Generate">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>300</y>
+         <width>171</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 81 14pt &quot;Rockwell Extra Bold&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Gernerate</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="load">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>300</y>
+         <width>171</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 81 14pt &quot;Rockwell Extra Bold&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Load</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="save">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>300</y>
+         <width>171</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 81 14pt &quot;Rockwell Extra Bold&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>outputA0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigA0</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>60</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>62</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputA7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidA7</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>550</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>552</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputA7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigA7</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>550</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>552</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputA7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigA7</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>570</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>552</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputA7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidA7</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>570</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>552</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputA6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidA6</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>482</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputA6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigA6</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>482</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputA6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigA6</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>500</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>482</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputA6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidA6</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>500</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>482</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputA5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidA5</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>410</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputA5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigA5</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>410</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputA5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigA5</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>430</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputA5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidA5</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>430</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputA4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidA4</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>342</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputA4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigA4</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>342</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputA4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigA4</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>360</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>342</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputA4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidA4</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>360</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>342</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputA3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigA3</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>270</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>272</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputA3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidA3</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>270</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>272</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputA3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigA3</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>272</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputA3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidA3</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>272</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputA2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidA2</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>200</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>202</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputA2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigA2</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>200</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>202</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputA2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigA2</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>220</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>202</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputA2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidA2</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>220</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>202</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputA1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigA1</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>150</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>132</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputA1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidA1</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>150</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>132</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputA1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigA1</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>130</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>132</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputA1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidA1</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>130</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>132</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputA0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigA0</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>80</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>62</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputA0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidA0</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>80</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>62</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputA0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidA0</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>60</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>62</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputB7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidB7</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>550</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>552</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputB7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigB7</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>550</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>552</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputB7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigB7</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>570</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>552</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputB7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidB7</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>570</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>552</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputB6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidB6</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>482</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputB6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigB6</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>482</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputB6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigB6</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>500</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>482</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputB6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidB6</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>500</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>482</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputB5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidB5</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>410</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputB5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigB5</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>410</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputB5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigB5</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>430</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputB5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidB5</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>430</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputB4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidB4</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>342</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputB4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigB4</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>342</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputB4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigB4</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>360</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>342</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputB4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidB4</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>360</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>342</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputB3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidB3</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>270</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>272</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputB3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigB3</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>270</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>272</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputB3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigB3</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>272</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputB3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidB3</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>272</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputB2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidB2</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>200</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>202</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputB2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigB2</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>200</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>202</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputB2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigB2</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>220</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>202</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputB2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidB2</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>220</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>202</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputB1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidB1</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>130</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>132</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputB1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigB1</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>130</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>132</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputB1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigB1</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>150</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>132</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputB1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidB1</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>150</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>132</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputB0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidB0</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>60</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>62</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputB0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigB0</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>60</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>62</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputB0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigB0</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>80</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>62</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputB0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidB0</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>80</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>547</x>
+     <y>62</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputC0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidC0</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>89</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputC0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigC0</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>89</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputC1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidC1</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>159</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputC0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigC0</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>69</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputC2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigC2</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>229</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>211</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputD1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidD1</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>159</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputC1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigC1</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>159</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputC3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidC3</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>299</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>281</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputC5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidC5</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>439</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>421</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputD1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigD1</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>139</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputC7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigC7</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>561</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputC4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidC4</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>349</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>351</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputC3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigC3</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>299</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>281</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputC2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidC2</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>229</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>211</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputC6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigC6</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>509</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>491</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputC7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidC7</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>561</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputC5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigC5</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>439</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>421</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputC2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigC2</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>209</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>211</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputC3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigC3</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>279</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>281</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputD3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidD3</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>299</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>281</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputC5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigC5</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>419</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>421</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputD4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidD4</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>369</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>351</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputC6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidC6</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>509</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>491</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputC4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigC4</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>349</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>351</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputC5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidC5</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>419</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>421</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputC4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidC4</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>369</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>351</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputD4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigD4</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>369</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>351</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputC0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidC0</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>69</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputC1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigC1</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>139</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputC4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigC4</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>369</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>351</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputC1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidC1</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>139</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputC7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigC7</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>559</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>561</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputC7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidC7</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>559</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>561</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputC6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigC6</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>489</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>491</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputC2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidC2</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>209</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>211</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputC6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidC6</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>489</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>491</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputC3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidC3</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>279</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>281</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputD2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigD2</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>209</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>211</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputD7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidD7</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>561</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputD1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigD1</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>159</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputD5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigD5</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>439</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>421</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputD2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigD2</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>229</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>211</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputD2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidD2</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>229</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>211</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputD0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigD0</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>89</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputD6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidD6</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>509</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>491</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputD6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigD6</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>509</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>491</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputD5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidD5</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>439</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>421</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputD3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigD3</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>299</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>281</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputD1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidD1</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>139</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputD6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidD6</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>489</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>491</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputD2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidD2</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>209</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>211</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputD7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigD7</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>579</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>561</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputD4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigD4</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>349</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>351</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputD4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidD4</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>349</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>351</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputD3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigD3</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>279</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>281</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>inputD0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidD0</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>89</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputD3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidD3</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>279</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>281</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputD5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidD5</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>419</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>421</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputD5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigD5</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>419</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>421</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputD7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidD7</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>559</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>561</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputD6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigD6</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>489</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>491</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputD7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigD7</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>559</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>561</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputD0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>outputConfigD0</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>69</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>outputD0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>inputConfidD0</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>69</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>71</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Generate</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>366</x>
+     <y>531</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>436</x>
+     <y>306</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>save</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>356</x>
+     <y>351</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>436</x>
+     <y>306</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>load</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>566</x>
+     <y>351</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>436</x>
+     <y>306</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
